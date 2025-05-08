@@ -20,3 +20,12 @@ public class MethodOverriding {
         myAnimal.makeSound();         // Output: Dog barks
     }
 }
+
+/*
+ Explanation:
+Animal has a method makeSound().
+
+Dog overrides makeSound() to give its own implementation.
+
+At runtime, even though the reference is of type Animal, the actual method called is Dog’s version – demonstrating runtime polymorphism.
+*/
